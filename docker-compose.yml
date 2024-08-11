@@ -1,0 +1,9 @@
+services:
+  linux:
+    build:
+      # With the context all paths need below will start from the directory where the compose file is in
+      context: .
+      dockerfile: ./linux/Dockerfile
+    ports:
+      - "80:80"
+      - "22:22"

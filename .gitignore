@@ -1,0 +1,3 @@
+#Linux
+# - pem keys should not be synced
+*.pem
